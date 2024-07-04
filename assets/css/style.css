@@ -1,0 +1,59 @@
+/*  ===================== 
+        main project
+    =====================*/
+
+.main {
+    background-color: #000;
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.1);
+    margin: 0 auto;
+    width: 80vw;
+}
+
+.container {
+    display: flex;
+}
+
+.aside {
+    background-color: #1E1E1F;
+    border: 2px solid rgb(138, 43, 226);
+    border-radius: 50px;
+    margin: 30px;
+    width: 20%;
+    height: 400px;
+}
+
+.article {
+    background-color: #1E1E1F;
+    border: 2px solid rgb(138, 43, 226);
+    border-radius: 50px;
+    margin: 30px;
+    width: 75%;
+    height: 400px;
+}
+
+.header {
+    background-color: beige;
+    padding: 1rem;
+}
+
+.ul-list {
+    margin: 0 1rem 0 0;
+}    
+
+.ul-list div {
+    display: flex;
+    justify-content: flex-end;
+}
+.li-list {
+    margin: 0 2rem;
+}
+
+footer div {
+    display: flex;
+    background-color: red;
+}
+
+img .svg {
+    height: 64px;
+    width: 64px;
+}
