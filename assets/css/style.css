@@ -1,59 +1,107 @@
 /*  ===================== 
-        main project
-    =====================*/
-
-.main {
-    background-color: #000;
-    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.1);
-    margin: 0 auto;
-    width: 80vw;
+ *      main project
+ *  =====================*/
+body {
+  background-color: #000;
+  margin: 0 auto;
+  width: 80vw;
+}
+body .main {
+  display: flex;
+}
+body .main .aside {
+  background-color: #1E1E1F;
+  border: 2px solid rgb(138, 43, 226);
+  border-radius: 50px;
+  box-shadow: 2px 2px 4px rgb(138, 43, 255);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 30px;
+  width: 20%;
+  height: max-content;
+}
+body .main .aside figure .img-perfil {
+  margin: 2rem;
+  border-radius: 50%;
+  width: 200px;
+  box-shadow: 2px 2px 4px rgb(138, 43, 255);
+}
+body .main .aside .sidebar-info_more .contacts-list {
+  margin: 1rem 0;
+}
+body .main .aside .sidebar-info_more .contacts-list .contact-item {
+  display: flex;
+  align-items: center;
+}
+body .main .aside .sidebar-info_more .contacts-list .contact-item .icon-box {
+  margin: 1rem 0;
+  border: 1px solid rgb(138, 43, 255);
+  border-radius: 1rem;
+  box-shadow: 2px 2px 4px rgb(138, 43, 255);
+  height: 48px;
+  width: 48px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+body .main .aside .sidebar-info_more .contacts-list .contact-item .icon-box .svg {
+  height: 18px;
+  width: 18px;
+}
+body .main .aside .sidebar-info_more .contacts-list .contact-item .contact-info {
+  margin-left: 1rem;
+}
+body .main .aside .sidebar-info_more .contacts-list .contact-item .contact-info .contact-title {
+  padding-bottom: 0.5rem;
+}
+body .main .aside .sidebar-info_more .social-list {
+  margin: 1rem 0;
+  display: flex;
+  justify-content: center;
+}
+body .main .aside .sidebar-info_more .social-list .social-item .social-link .svg {
+  height: 48px;
+  width: 48px;
+}
+body .main .article {
+  background-color: #1E1E1F;
+  border: 2px solid rgb(138, 43, 226);
+  box-shadow: 3px 3px 3px rgb(138, 43, 226);
+  border-radius: 50px;
+  margin: 30px;
+  width: 75%;
+}
+body .main .article .header nav .ul-list {
+  width: max-content;
+  margin-left: auto;
+  border-radius: 0 20px;
+  border-left: 1px solid rgb(138, 43, 226);
+  border-bottom: 1px solid rgb(138, 43, 226);
+  margim: 0 1rem;
+}
+body .main .article .header nav .ul-list div {
+  display: flex;
+  justify-content: flex-end;
+}
+body .main .article .header nav .ul-list div .li-list {
+  margin: 0 2rem;
+  padding: 1rem 1rem 1.5rem;
+}
+body .main .article .header nav .ul-list div .li-list a {
+  color: #fff;
+  font-weight: bolder;
+  text-decoration: none;
+}
+body .main .article .container {
+  height: 800px;
+}
+body .main .article .footer {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 1rem;
 }
 
-.container {
-    display: flex;
-}
+/* GLOBAL */
 
-.aside {
-    background-color: #1E1E1F;
-    border: 2px solid rgb(138, 43, 226);
-    border-radius: 50px;
-    margin: 30px;
-    width: 20%;
-    height: 400px;
-}
-
-.article {
-    background-color: #1E1E1F;
-    border: 2px solid rgb(138, 43, 226);
-    border-radius: 50px;
-    margin: 30px;
-    width: 75%;
-    height: 400px;
-}
-
-.header {
-    background-color: beige;
-    padding: 1rem;
-}
-
-.ul-list {
-    margin: 0 1rem 0 0;
-}    
-
-.ul-list div {
-    display: flex;
-    justify-content: flex-end;
-}
-.li-list {
-    margin: 0 2rem;
-}
-
-footer div {
-    display: flex;
-    background-color: red;
-}
-
-img .svg {
-    height: 64px;
-    width: 64px;
-}
+/*# sourceMappingURL=style.css.map */
